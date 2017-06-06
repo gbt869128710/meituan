@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Meituan-enroll.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="enroll"><a href="#">注册</a></div>
+        <div class="close"><a href="Meituan-enter.html">&#xe614;</a></div>
+    </div>
+    <div class="nav">
+        <span class="num">1.输入手机号
+		</span>
+        <span class="icon">&#xe613;</span>
+        <span class="num">2.输入验证码
+		</span>
+        <span class="icon">&#xe613;</span>
+        <span class="num">3.设置密码
+		</span>
+        <span class="icon">&#xe613;</span>
+    </div>
+    <div class="register">
+        <div class="mobile">
+           <span class="phone">
+			<input type="text" placeholder="请输入您的手机号" class="number" maxlength='11' onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');">
+			</span>
+            <div class="btn">
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <input type="button" value="获取验证码" class="log-in-one" disabled>
+        <div class="deal">
+            <span class="circle pair">&#xe609;</span>
+            <span class="circle empty"></span>
+            <span>我已阅读并同意</span>
+            <a href="#">《美团网用户协议》</a>
+        </div>
+    </div>
+    <div class="register">
+		<div class="mobile">
+			<span class="phone">
+			<input type="text" placeholder="请输入短信验证码" class="numb" maxlength='6' onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');">
+			</span>
+			<div class="btn">
+			<input type="button" value="短信已发送" class="gain" disabled>
+			<span class="shut">&#xe666;</span>
+			</div>
+		</div>
+		<input type="button" value="提交验证码" class="log-in-two" disabled>
+	</div>
+     <div class="register">
+		<div class="mobile">
+            <span class="phone">
+			<input type="text" placeholder="请设置密码" class="cryptogram">
+			</span>
+            <div class="btn">
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <div class="not-have"></div>
+       <div class="mobile">
+            <span class="phone">
+			<input type="text" placeholder="请确认密码" class="account">
+			</span>
+            <div class="btn">
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+		<input type="button" value="注册" class="log-in-three" disabled>
+	</div>
+    <div class="cover">手机验证码错误,请重新输入
+    </div>
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/Meituan-enroll.js"></script>

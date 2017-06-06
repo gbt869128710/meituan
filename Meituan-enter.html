@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Meituan-enter.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="enter"><a href="#">登录</a></div>
+        <div class="close"><a href="Meituan-home-page.html">&#xe604;</a></div>
+        <div class="enroll"><a href="Meituan-enroll.html">注册</a></div>
+    </div>
+    <div class="nav">
+        <div class="log">手机号快捷登录</div>
+        <div class="log">账号密码登录</div>
+    </div>
+    <div class="register">
+        <div class="mobile">
+            <span class="cell-phone">手机号</span>
+            <span class="phone">
+			<input type="text" placeholder="仅支持中国大陆手机号" class="number" maxlength='11' onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');">
+			</span>
+            <div class="btn">
+                <input type="button" value="获取验证码" class="gain" disabled>
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <div class="cipher">
+            <span class="cell-phone">验证码</span>
+            <span class="phone">
+			<input type="text" placeholder="请输入验证码" class="numb" maxlength='6' onkeyup="this.value=this.value.replace(/[^0-9-]+/,'');" disabled>
+			</span>
+            <div class="btn">
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <input type="button" value="登录" class="log-in" disabled>
+        <div class="deal">
+            <div class="deal-left">
+                <span>登录即为同意</span>
+                <a href="#">《美团网用户协议》</a>
+            </div>
+            <div class="deal-right">
+                <a href="#">遇到问题?</a>
+            </div>
+        </div>
+        <div class="wire"></div>
+        <div class="circle">&#xe64e;</div>
+        <div class="circle">&#xe64c;</div>
+        <div class="rest"><span>-其他登录方式-</span></div>
+        <div class="rests">
+            <div class="weixin">
+                <div class="logo">&#xe683;</div>
+                <p>微信</p>
+            </div>
+            <div class="weibo">
+                <div class="logo">&#xe682;</div>
+                <p>微博</p>
+            </div>
+            <div class="qq">
+                <div class="logo">&#xe602;</div>
+                <p>QQ</p>
+            </div>
+        </div>
+    </div>
+    <div class="register">
+        <div class="mobile">
+            <span class="cell-phone">账号</span>
+            <span class="phone">
+			<input type="text" placeholder="请输入手机号" class="account">
+			</span>
+            <div class="btn">
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <div class="cipher">
+            <span class="cell-phone">密码</span>
+            <span class="phone">
+			<input type="text" placeholder="请输入密码" class="cryptogram">
+			</span>
+            <div class="btn">
+                <div class="eye">&#xe60a;</div>
+                <div class="eye">&#xe605;</div>
+                <span class="shut">&#xe666;</span>
+            </div>
+        </div>
+        <input type="button" value="登录" class="log-in-two" disabled>
+        <div class="deal">
+            <a href="#" class="issue">遇到问题?</a>
+        </div>
+    </div>
+    <div class="cover">手机验证码错误,请重新输入
+    </div>
+</body>
+
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/Meituan-enter.js"></script>

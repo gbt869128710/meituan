@@ -1,0 +1,231 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html,
+body {
+  height: 100%;
+  font-family: 'Microsoft YaHei', 'iconfont';
+  font-size: 62.5%; }
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #333333; }
+
+ol,
+ul,
+li {
+  list-style-type: none; }
+
+input {
+  outline: none;
+  border: none; }
+
+/*border-radius*/
+/*logo size*/
+html,
+body {
+  background: url("../images/peach.png") center top no-repeat;
+  background-size: cover; }
+
+.header {
+  width: 100%;
+  height: 160px;
+  background: rgba(130, 121, 126, 0.8); }
+  .header .search {
+    padding-top: 27px;
+    margin: 0 4% 8px 4%;
+    width: 92%;
+    height: 30px; }
+    .header .search .close {
+      float: left; }
+      .header .search .close a {
+        line-height: 30px;
+        font-size: 1.6rem;
+        color: #ffffff;
+        font-weight: bolder; }
+    .header .search .seek {
+      float: left;
+      margin: 0 10%;
+      width: 52.3%;
+      height: 30px;
+      background: #ffffff;
+      border-radius: 15px;
+      -moz-border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -o-border-radius: 15px;
+      -ms-border-radius: 15px; }
+      .header .search .seek .cast-about {
+        margin: 0 5%;
+        width: 10%;
+        font-size: 1.2rem;
+        color: #666666;
+        line-height: 30px; }
+      .header .search .seek .hunt {
+        height: 30px;
+        width: 80%;
+        background: none; }
+    .header .search .share {
+      float: left;
+      margin-top: 6px;
+      width: 28px;
+      height: 16px;
+      border: 1px solid #ffffff;
+      text-align: center; }
+      .header .search .share a {
+        color: #ffffff;
+        line-height: 16px; }
+    .header .search .sharing {
+      float: right;
+      width: 18px;
+      height: 16px; }
+      .header .search .sharing a {
+        color: #ffffff;
+        font-size: 2rem;
+        text-align: center; }
+  .header .shop {
+    margin: 16px 4% 0 4%;
+    width: 92%; }
+    .header .shop .shop-name {
+      width: 100%;
+      height: 51px;
+      border-bottom: 1px solid #b2adb1; }
+      .header .shop .shop-name .shop-name-left {
+        float: left;
+        width: 80%;
+        height: 40px;
+        border-right: 1px solid #b2adb1; }
+        .header .shop .shop-name .shop-name-left .logo {
+          float: left;
+          width: 40px;
+          height: 40px;
+          background: url("../images/Nanjing_.png") center center no-repeat; }
+        .header .shop .shop-name .shop-name-left .store {
+          float: left;
+          margin-left: 3%;
+          width: 75%;
+          height: 40px; }
+          .header .shop .shop-name .shop-name-left .store p {
+            width: 100%;
+            color: #ffffff;
+            font-size: 1.4rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+            .header .shop .shop-name .shop-name-left .store p span {
+              color: #ded9da; }
+            .header .shop .shop-name .shop-name-left .store p .activity {
+              font-size: 1.2rem; }
+      .header .shop .shop-name .shop-name-right {
+        float: right;
+        width: 19%;
+        height: 40px; }
+        .header .shop .shop-name .shop-name-right .star {
+          display: none;
+          width: 100%;
+          line-height: 20px;
+          font-size: 1.8rem;
+          color: #ffffff;
+          text-align: center; }
+        .header .shop .shop-name .shop-name-right .star:nth-child(2) {
+          color: #ffd161; }
+        .header .shop .shop-name .shop-name-right .collect {
+          width: 100%;
+          font-size: 1.4rem;
+          color: #ffffff;
+          text-align: center; }
+    .header .shop .movable {
+      width: 100%;
+      height: 35px; }
+      .header .shop .movable .movable-left {
+        float: left;
+        width: 80%; }
+        .header .shop .movable .movable-left .pin {
+          float: left;
+          margin-top: 10px;
+          width: 15px;
+          height: 15px;
+          color: #ffffff;
+          text-align: center;
+          background: #ffd161; }
+        .header .shop .movable .movable-left .minus {
+          float: left;
+          margin-left: 12px;
+          width: 88%;
+          line-height: 35px;
+          color: #ffffff;
+          letter-spacing: 1px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap; }
+      .header .shop .movable .movable-right {
+        float: right;
+        width: 20%; }
+        .header .shop .movable .movable-right span {
+          margin-left: 6%;
+          font-size: 1rem;
+          color: #ffffff;
+          line-height: 35px;
+          text-align: center; }
+
+.content-header {
+  width: 100%;
+  height: 40px;
+  background: #ffffff; }
+  .content-header ul {
+    width: 100%;
+    height: 39px;
+    border-bottom: 1px solid #e4e4e4; }
+    .content-header ul .order {
+      float: left;
+      width: 33%;
+      height: 39px;
+      font-size: 1.4rem;
+      color: #767676;
+      text-align: center;
+      line-height: 38px; }
+  .content-header .wire {
+    margin-top: -3px;
+    margin-left: 15%;
+    width: 10px;
+    height: 2px;
+    background: #ffd161; }
+
+.content {
+  width: 100%;
+  background: #ffffff; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8); }
+  .footer .logo-two {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 58px;
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -527px -40px; }
+  .footer .fee {
+    float: left;
+    margin-left: 30%;
+    width: 30%;
+    height: 50px;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 50px; }
+  .footer .cost {
+    float: right;
+    margin-right: 3%;
+    width: 20%;
+    height: 50px;
+    font-weight: bolder;
+    color: #999999;
+    font-size: 1.2rem;
+    line-height: 50px; }
